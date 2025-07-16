@@ -1,0 +1,25 @@
+{
+  "name": "coros-mcp-server",
+  "version": "0.0.1",
+  "bin": "./dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "axios": "^1.10.0",
+    "md5": "^2.3.0"
+  },
+  "files": ["dist/", ".env"],
+  "devDependencies": {
+    "@types/md5": "^2.3.5",
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
