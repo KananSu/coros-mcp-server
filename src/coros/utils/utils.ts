@@ -7,7 +7,7 @@ export function secondsToTime(seconds: number) {
 
 export function secondsToPace(seconds: number) {
   const minute = Math.floor(seconds / 60);
-  const second = seconds - minute * 60;
+  const second = Math.floor(seconds - minute * 60);
   return `${minute}:${second}`;
 }
 
